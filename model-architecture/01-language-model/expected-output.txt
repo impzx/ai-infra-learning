@@ -1,0 +1,10 @@
+vocabulary=11, alpha=1.0, EOS scored, BOS not scored
+model       split   tokens  loss(nats)  perplexity
+uniform     train      32      2.3979     11.0000
+uniform     valid      16      2.3979     11.0000
+unigram     train      32      2.1987      9.0135
+unigram     valid      16      2.1860      8.9000
+bigram      train      32      1.6619      5.2694
+bigram      valid      16      1.7601      5.8130
+P(苹果 | 喜欢) = 0.1875
+P(苹果 | 讨厌) = 0.142857
